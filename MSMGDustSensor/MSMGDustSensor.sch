@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -7836,6 +7836,7 @@ No silk outline, but tDocu layer shows pin location.
 <sheet>
 <plain>
 <text x="43.18" y="193.04" size="1.778" layer="91">battery + dc/dc board ext pins</text>
+<text x="129.54" y="172.72" size="1.778" layer="91">TODO: Connect Pin 5 to 0 for 0x76, 3.3v for 0x77 i2c address</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="35.56" y="220.98"/>
